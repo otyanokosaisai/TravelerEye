@@ -27,6 +27,9 @@ link : [Download Model Files (ZIP)](https://drive.google.com/file/d/1UIgEps1LL7j
 - [blip2/visual_encoder_fp16.plan] - Place it at `models/blip2/plan/visual_encoder/visual_encoder_fp16.plan`
 - [Llama2/rank0.engine] - Place it at `models/llama2/engine/rank0.engine`
 
+link : [Download Model Files (pt)](https://drive.google.com/file/d/1hI6da39QVX70ZKxbm4EQKwRzBoJevOal/view?usp=sharing)
+- [query_tokens.pt] Place it at `models/blip2/query_tokens.pt`
+
 
 
 usage:
