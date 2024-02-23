@@ -140,18 +140,13 @@ We believe that TravelerEye not only showcases the potential of combining powerf
 
 ## demo movie
 
-"Welcome to TravelerEye, the AI-driven platform that enriches the way we revisit our travel memories and discover the world around us."
+"Introducing TravelerEye, the AI companion that transforms your travel photos into stories and knowledge, powered by NVIDIA's cutting-edge technology."
 
-"Imagine looking back at photos from a family vacation or a trip with friends. With TravelerEye, every photo becomes a gateway to shared memories, bringing stories to life with just a tap. Our app uses advanced NVIDIA AI technology, including BLIP-2 and Llama2 models, to provide context and insights that deepen your connection to those moments. Whether it's uncovering the cultural significance of a hidden gem or reliving the laughter shared under a foreign sky, TravelerEye makes reminiscing more meaningful."
+"Revisit cherished memories with family and friends as TravelerEye brings your past adventures to life. Each photo, enriched with cultural and historical insights, deepens the bonds and conversations shared around those memories."
 
-"But TravelerEye's magic doesn't end with memories. Picture yourself exploring a new city without a tour guide. With our app, instantly learn about the place you've just visited by uploading a photo. TravelerEye acts as your digital guide, offering information about historical sites, local culture, and natural wonders, all powered by NVIDIA's TensorRT-llm for rapid insights. It's the perfect companion for both solo travelers seeking knowledge and groups looking for a deeper understanding of their adventures."
+"On solo journeys or explorations without a guide, TravelerEye becomes your instant digital companion. Just upload a photo, and our app, leveraging BLIP-2 and Llama2 models accelerated by NVIDIA's TensorRT-llm, reveals everything you need to know about the places you've visited. From historical sites to natural wonders, TravelerEye provides context, making every trip more meaningful."
 
-"TravelerEye isn't just an application; it's a revolution in how we interact with our photos and the world. It's about making every photo a conversation starter, enriching discussions with family and friends, and turning every snapshot into an opportunity for discovery and connection."
-
-"Join us as we redefine photo exploration with TravelerEye, where memories meet discovery. Powered by NVIDIA, TravelerEye is your personal guide to the past and the present, making every journey an exploration of stories waiting to be told."
-
-"Thank you for exploring with TravelerEye, a testament to how technology can bring us closer to our world and to each other. This is our submission to the Nvidia GenAIonRTX contest, showcasing the potential of AI to enhance our lives in meaningful ways."
-
+"TravelerEye is more than an app; it's a new way to experience your travels and share stories. It's where memories meet discovery, enhancing how we connect with our world and each other."
 
 
 
