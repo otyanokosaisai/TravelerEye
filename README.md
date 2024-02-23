@@ -3,7 +3,7 @@
 Welcome to **TravelerEye** 📸, a cutting-edge visual exploration tool that leverages the power of AI 🤖 to enhance your photo experiences. Utilizing state-of-the-art models like **BLIP-2** and **Llama2**, TravelerEye provides intuitive genre selection and photo analysis capabilities.
 
 ![TravelerEye Interface](https://github.com/otyanokosaisai/TravelerEye/blob/master/TravelerEye_sample.png)
-
+![TravelerEye Interface](https://github.com/otyanokosaisai/TravelerEye/blob/master/TravelerEye_sample2.png)
 ## 🌟 TravelerEye Overview
 
 **TravelerEye** is designed to transform the way you interact with your travel photos. This innovative application uses artificial intelligence to analyze images and provide insights into the culture, natural environment, and ambiance of the places you've visited. Whether you're on a solo journey, reminiscing about a past trip, or enjoying family memories, TravelerEye offers a unique way to connect with your travel experiences.
@@ -140,13 +140,22 @@ We believe that TravelerEye not only showcases the potential of combining powerf
 
 ## demo movie
 
-"Introducing TravelerEye, the AI companion that transforms your travel photos into stories and knowledge, powered by NVIDIA's cutting-edge technology."
+"Introducing TravelerEye, the AI companion powered by Nvidia's cutting-edge technology, transforming your travel photos into rich stories and knowledge.
 
-"Revisit cherished memories with family and friends as TravelerEye brings your past adventures to life. Each photo, enriched with cultural and historical insights, deepens the bonds and conversations shared around those memories."
+Revisit cherished memories with family and friends as TravelerEye brings your past adventures to life. Each photo, enriched with cultural and historical insights, deepens the bonds and conversations shared around those memories.
 
-"On solo journeys or explorations without a guide, TravelerEye becomes your instant digital companion. Just upload a photo, and our app, leveraging BLIP-2 and Llama2 models accelerated by NVIDIA's TensorRT-llm, reveals everything you need to know about the places you've visited. From historical sites to natural wonders, TravelerEye provides context, making every trip more meaningful."
+On solo journeys or explorations without a guide, TravelerEye becomes your instant digital companion. Just upload a photo, and our app, leveraging BLIP-2 and Llama2 models accelerated by TensorRT-llm, reveals everything you need to know about the places you've visited. From historical sites to natural wonders, TravelerEye provides context, making every trip more meaningful.
 
-"TravelerEye is more than an app; it's a new way to experience your travels and share stories. It's where memories meet discovery, enhancing how we connect with our world and each other."
+TravelerEye is more than an app; it's a new way to experience your travels and share stories, where memories meet discovery, enhancing how we connect with our world and each other.
 
+Now, let's quickly walk through how to bring this magic to life:
+
+Follow the installation guide on our GitHub page to set up your Docker container.
+Launch the app and upload a photo to start your journey.
+Choose or type a genre for the photo to tailor the insights you receive.
+Hit the 'Generate' button and watch as TravelerEye unveils the stories behind your image.
+In just a few simple steps, TravelerEye transforms your travel photos into gateways of exploration and connection, making every photo an opportunity for discovery.
+
+Thank you for exploring with TravelerEye, your passport to rediscovering the world through your lens."
 
 
