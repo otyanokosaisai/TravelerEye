@@ -92,4 +92,12 @@ This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.t
 - Thanks to Meta Platforms, Inc. for making Llama2 available to the community.
 
 
+## GenAIonRTX contest
+This application is a submission to the **Nvidia GenAIonRTX contest(2024) Text-Based Applications**.
+This project is tested on the following system.
+- Windows11
+- wsl2
+- docker 24.0.7
+- Nvidia RTX4090 laptop
+
 
