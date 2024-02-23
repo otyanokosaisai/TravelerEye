@@ -20,27 +20,36 @@ TravelerEye is perfect for:
 - **Memory Keepers** 📖: Use TravelerEye to recall the details and stories of the places you've been, making every photo a gateway to the past.
 - **Families** 👪: Enjoy quality time with loved ones as TravelerEye helps narrate the stories of family trips, making every photo session a journey of discovery.
 
+## System Requirements
 
+To ensure the best experience and performance while using TravelerEye, your system should meet the following requirements:
 
-## Installation
+- **GPU**: Nvidia GPU that supports TensorRT-llm, with VRAM of at least 16GB.
+- **RAM**: Minimum of 32GB, though 64GB has been tested and recommended for optimal performance.
+- **Storage**: At least 70GB of free space for installation and running the application.
 
-Before diving into the visual world of TravelerEye, you'll need to set up your environment. Follow these steps to get started:
-- install NVIDIA Container
-follow [Nvidia Container toolkit installation guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
-- start docker container
-```bash
-docker run --gpus all --entrypoint /bin/bash -it nvidia/cuda:12.1.0-devel-ubuntu22.04
-```
-- Setting Up the Environment
-```bash
+Please note that these requirements are crucial for running the application smoothly and efficiently.
 
-apt-get update && apt-get -y install python3.10 python3-pip openmpi-bin libopenmpi-dev git
-pip3 install tensorrt_llm -U --pre --extra-index-url https://pypi.nvidia.com
-git clone --recursive https://github.com/otyanokosaisai/TravelerEye.git
-cd TravelerEye
-pip3 install gradio
+## Installation Guide
 
-```
+Follow these steps to set up TravelerEye on your system:
+
+1. **NVIDIA Container Toolkit Installation**:
+   Ensure that you have the NVIDIA Container Toolkit installed on your system. For detailed instructions, refer to the [Nvidia Container toolkit installation guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html).
+
+2. **Start Docker Container**:
+   Launch the Docker container with NVIDIA GPU support by running:
+   ```bash
+   docker run --gpus all --entrypoint /bin/bash -it nvidia/cuda:12.1.0-devel-ubuntu22.04
+   ```
+3. Update your package list and install necessary dependencies:
+  ```bash
+  apt-get update && apt-get -y install python3.10 python3-pip openmpi-bin libopenmpi-dev git
+  pip3 install tensorrt_llm -U --pre --extra-index-url https://pypi.nvidia.com
+  git clone --recursive https://github.com/otyanokosaisai/TravelerEye.git
+  cd TravelerEye
+  pip3 install gradio
+  ```
 
 ### Prerequisites
 
@@ -61,23 +70,30 @@ If you want to use other models, you can make the accelerated models by using [T
     - `[query_tokens.pt]` Place it at `models/blip2/query_tokens.pt`
 
 ### 🚀　Usage
-Run the application with the following command:
+To start exploring with TravelerEye, follow these simple steps:
 
-```bash
+1. **Launch the Application**:
+   Run TravelerEye using the following command:
+   ```bash
+   python3 app.py 
+   ```
+2. Accessing TravelerEye:
+  Open your web browser and go to http://127.0.0.1:7860. Here, you can upload a photo to begin your exploration.
 
-python3 app.py
-
-```
-
-Access TravelerEye by navigating to `http://127.0.0.1:7860` in your web browser. Once there, you can begin the exploration by uploading a photo. After uploading, you have the option to select a genre from the predefined list or type your own to specify a unique genre. The predefined genres include:
-
-- "Culture and Arts"
-- "History and Heritage"
-- "Nature and Environment"
-- "Science, Technology, and Exploration"
-- "Cuisine and Lifestyle"
-
-This feature allows you to tailor the analysis to your specific interests, providing insights and information relevant to the genre of your choice. Whether you're interested in the cultural significance of your travel destinations, the natural beauty of the landscapes you've captured, or the culinary delights you've experienced, TravelerEye is designed to enhance your photo exploration experience.
+3. Genre Selection:
+  After uploading your photo, choose a genre from the predefined list or type your own custom genre. Available genres include:
+  
+  - Culture and Arts
+  - History and Heritage
+  - Nature and Environment
+  - Science, Technology, and Exploration
+  - Cuisine and Lifestyle
+  
+  This feature allows you to tailor the analysis to your specific interests, providing insights and information relevant to the genre of your choice. Whether you're interested in the cultural significance of your travel destinations, the natural beauty of the landscapes you've captured, or the culinary delights you've experienced, TravelerEye is designed to enhance your photo exploration experience.
+### custom genre example
+- sightseeing
+- science
+- food
 
 ### attention
 If you cannot access `http://127.0.0.1:7860` in your web browser, then fix firewall setting and if necessary use vscode.
@@ -93,6 +109,7 @@ This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.t
 - Thanks to Meta Platforms, Inc. for making Llama2 available to the community.
 
 
+
 ## GenAIonRTX contest
 This application is a submission to the **Nvidia GenAIonRTX contest(2024) Text-Based Applications**.
 This project is tested on the following system.
@@ -100,5 +117,28 @@ This project is tested on the following system.
 - wsl2
 - docker 24.0.7
 - Nvidia RTX4090 laptop
+
+## GenAIonRTX Contest Appeal
+
+We are thrilled to present **TravelerEye** as our submission to the **Nvidia GenAIonRTX contest (2024) Text-Based Applications**. Our project harnesses the synergistic powers of BLIP-2 and Llama2-7b models, traditionally known for their intensive computational demands. With the integration of TensorRT-llm, we've achieved a monumental leap in performance, accelerating processing speeds by several folds. This breakthrough enables TravelerEye to extract meaningful insights from mere images, transforming them into rich narratives and interactive experiences.
+
+### Problem Statement and Vision
+
+In an era where social media proliferation has inadvertently contributed to the superficiality of family connections, TravelerEye aims to counteract this trend by deepening the shared experiences of past travels. Our application doesn't just recall memories; it reignites conversations, fosters shared joy, and strengthens bonds through the vivid storytelling of your journeys.
+
+Moreover, TravelerEye addresses the common challenge faced during solo travels or trips without a guide. It empowers travelers to uncover the stories behind their surroundings and captured moments, solely based on their photographs. This feature not only enhances the travel experience but also serves as a virtual companion, providing context and insights that might otherwise require extensive research or a human guide.
+
+### Enhancing Communication through Shared Photo Experiences
+
+TravelerEye also innovates in the realm of social interactions, particularly in photo sharing among friends. By appending information derived from images, our application enriches conversations, adding layers of context and intrigue that facilitate smoother, more engaging communication. This feature is especially valuable in today's digital age, where meaningful interaction is often lost amidst the noise of constant content sharing.
+
+### Conclusion
+
+Our submission to the Nvidia GenAIonRTX contest is more than just an application; it's a tool designed to bridge gaps, create connections, and enhance the way we interact with our memories and the world around us. Powered by the cutting-edge acceleration of TensorRT-llm, TravelerEye stands at the forefront of AI-driven innovation, promising to revolutionize the way we perceive, share, and converse about our travel experiences.
+
+We believe that TravelerEye not only showcases the potential of combining powerful AI models with advanced acceleration technologies but also addresses pressing social issues, making it a worthy contender in the GenAIonRTX contest. Our hope is that this platform will inspire more meaningful interactions, bring people closer, and make every travel memory a treasure worth sharing.
+
+
+
 
 
