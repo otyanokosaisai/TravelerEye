@@ -79,7 +79,8 @@ Access TravelerEye by navigating to `http://127.0.0.1:7860` in your web browser.
 
 This feature allows you to tailor the analysis to your specific interests, providing insights and information relevant to the genre of your choice. Whether you're interested in the cultural significance of your travel destinations, the natural beauty of the landscapes you've captured, or the culinary delights you've experienced, TravelerEye is designed to enhance your photo exploration experience.
 
-
+### attention
+If you cannot access `http://127.0.0.1:7860` in your web browser, then fix firewall setting and if necessary use vscode.
 
 ## License
 
