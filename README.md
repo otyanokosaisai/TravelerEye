@@ -138,6 +138,19 @@ Our submission to the Nvidia GenAIonRTX contest is more than just an application
 
 We believe that TravelerEye not only showcases the potential of combining powerful AI models with advanced acceleration technologies but also addresses pressing social issues, making it a worthy contender in the GenAIonRTX contest. Our hope is that this platform will inspire more meaningful interactions, bring people closer, and make every travel memory a treasure worth sharing.
 
+## demo movie
+
+"Welcome to TravelerEye, the AI-driven platform that enriches the way we revisit our travel memories and discover the world around us."
+
+"Imagine looking back at photos from a family vacation or a trip with friends. With TravelerEye, every photo becomes a gateway to shared memories, bringing stories to life with just a tap. Our app uses advanced NVIDIA AI technology, including BLIP-2 and Llama2 models, to provide context and insights that deepen your connection to those moments. Whether it's uncovering the cultural significance of a hidden gem or reliving the laughter shared under a foreign sky, TravelerEye makes reminiscing more meaningful."
+
+"But TravelerEye's magic doesn't end with memories. Picture yourself exploring a new city without a tour guide. With our app, instantly learn about the place you've just visited by uploading a photo. TravelerEye acts as your digital guide, offering information about historical sites, local culture, and natural wonders, all powered by NVIDIA's TensorRT-llm for rapid insights. It's the perfect companion for both solo travelers seeking knowledge and groups looking for a deeper understanding of their adventures."
+
+"TravelerEye isn't just an application; it's a revolution in how we interact with our photos and the world. It's about making every photo a conversation starter, enriching discussions with family and friends, and turning every snapshot into an opportunity for discovery and connection."
+
+"Join us as we redefine photo exploration with TravelerEye, where memories meet discovery. Powered by NVIDIA, TravelerEye is your personal guide to the past and the present, making every journey an exploration of stories waiting to be told."
+
+"Thank you for exploring with TravelerEye, a testament to how technology can bring us closer to our world and to each other. This is our submission to the Nvidia GenAIonRTX contest, showcasing the potential of AI to enhance our lives in meaningful ways."
 
 
 
