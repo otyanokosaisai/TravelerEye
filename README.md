@@ -2,7 +2,7 @@
 
 Welcome to **TravelerEye** 📸, a cutting-edge visual exploration tool that leverages the power of AI 🤖 to enhance your photo experiences. Utilizing state-of-the-art models like **BLIP-2** and **Llama2**, TravelerEye provides intuitive genre selection and photo analysis capabilities.
 
-![TravelerEye Interface](path_to_your_demo_image_here)
+![TravelerEye Interface](https://github.com/otyanokosaisai/TravelerEye/blob/master/TravelerEye_sample.png)
 
 ## 🌟 TravelerEye Overview
 
